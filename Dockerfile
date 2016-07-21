@@ -7,5 +7,5 @@ RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 boolean tru
 
 RUN apt-get update && apt-get install -y oracle-java8-installer
 
-COPY quarksjava-1.0.jar quarksjava-1.0.jar
-CMD ["java", "-jar", "quarksjava-1.0.jar", "CommonApplication"]
+COPY quarksjava-1.1.jar quarksjava-1.1.jar
+CMD ["java", "-jar", "quarksjava-1.1.jar", "CommonApplication"]
